@@ -1,0 +1,72 @@
+.loginContainer {
+    background-color: black;
+    box-shadow: 0px 0px 5px 3px  white;
+    width: 20rem;
+    height: 30rem;
+    margin-top: 6rem;
+    margin-left: 55rem;
+    margin-right: 40rem;
+    border-radius: 5px;
+}
+
+h1 {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    color: aliceblue;
+}
+
+.divInput {
+    margin-top: 10rem;
+}
+
+.esqueceuSenha a{
+    margin-left: 12.5rem;
+    color: white;
+    background: none;
+    border: none;
+    
+}
+
+a:hover {
+    color: #FF0000;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+Input {
+    width: 18rem;
+    height: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    align-items: center;
+}
+
+a {
+    font-size: 70%;
+    right: 70rem;
+}
+
+Input::placeholder {
+    color: gray;
+    padding-left: 0.5rem;
+}
+
+Button {
+    width: 18rem;
+    height: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    align-items: center;
+    background-color: #FF0000;
+    border-color: rgb(231, 46, 83);
+    color: white;
+}
+
+Button:hover {
+    background-color: #df0000;
+    border-color: #FF0000;
+
+}

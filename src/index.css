@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body, #root{
+  background-color: #22252b
+}
+
+/* Definindo a animação de fadeIn */
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* Começa totalmente transparente */
+  }
+  50% {
+    opacity: 0; /* Mantém transparente por um curto período */
+  }
+  100% {
+    opacity: 1; /* Termina completamente visível */
+  }
+}
+
+/* Definindo a animação de fadeOut */
+@keyframes fadeOut {
+  0% {
+    opacity: 1; /* Começa completamente visível */
+  }
+  50% {
+    opacity: 1; /* Mantém visível por um curto período */
+  }
+  100% {
+    opacity: 0; /* Termina totalmente transparente */
+  }
+}
+
+/* Aplicando a animação de fadeIn e fadeOut com delay */
+.star {
+  animation-name: fadeIn, fadeOut;
+  animation-duration: 3s, 3s; /* Duração de 3 segundos para cada animação */
+  animation-timing-function: ease-in-out, ease-in-out; /* Função de temporização */
+  animation-delay: 0s, 3s; /* Atraso de 0 segundos para fadeIn e de 3 segundos para fadeOut */
+  animation-iteration-count: infinite, infinite; /* Repete a animação infinitamente */
+}
